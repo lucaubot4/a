@@ -1,0 +1,179 @@
+{
+
+  " name " : " IronHyde " ,
+
+  " description " : " Il gestore di gruppi più intelligente di Telegram. Bot per la gestione dei gruppi di Telegram modulare! " ,
+
+  " parole chiave " : [
+
+    " telegramma " ,
+
+    " migliore " ,
+
+    " gruppo " ,
+
+    " manager " ,
+
+    " 3 "
+
+  ],
+
+  " repository " : " https://github.com/Yash-Garg/IronHyde-bot " ,
+
+  " env " : {
+
+    " ENV " : {
+
+      " description " : "L' impostazione di QUALSIASI COSA abiliterà le variabili env " ,
+
+      " valore " : " QUALSIASI COSA "
+
+    },
+
+    " TOKEN " : {
+
+      " description " : " Il tuo token bot, come stringa. " ,
+
+      " valore " : " "
+
+    },
+
+    " OWNER_ID " : {
+
+      " description " : " Un numero intero composto dal tuo ID proprietario " ,
+
+      " valore " : " 482352271 "
+
+    },
+
+    " OWNER_USERNAME " : {
+
+      " description " : " Il tuo nome utente " ,
+
+      " value " : " Yash Garg "
+
+    },
+
+    " WEBHOOK " : {
+
+      " description " : "L' impostazione di ANYTHING abiliterà i webhook quando sono in modalità env messages " ,
+
+      " valore " : " QUALSIASI COSA "
+
+    },
+
+    " URL " : {
+
+      " description " : " L'URL dell'app Heroku simile a https: // <appname> .herokuapp.com / " ,
+
+      " valore " : " "
+
+    },
+
+    " MESSAGE_DUMP " : {
+
+      " descrizione " : " facoltativo: una chat in cui vengono memorizzati i messaggi salvati con risposta, per impedire alle persone di eliminare i vecchi " ,
+
+      " valore " : " -1007777777777 "
+
+    },
+
+    " SUDO_USERS " : {
+
+      " description " : " Un elenco separato da spazi di user_id che dovrebbero essere considerati utenti sudo " ,
+
+      " valore " : " "
+
+    },
+
+    " SUPPORT_USERS " : {
+
+      " description " : " Un elenco separato da spazi di user_id che dovrebbero essere considerati utenti di supporto (può gban / ungban, nient'altro) " ,
+
+      " valore " : " "
+
+    },
+
+    " WHITELIST_USERS " : {
+
+      " description " : " Un elenco separato da spazi di user_id che dovrebbero essere considerati nella whitelist - non possono essere banditi. " ,
+
+      " valore " : " "
+
+    },
+
+    " DONATION_LINK " : {
+
+      " descrizione " : " Facoltativo: link dove desideri ricevere donazioni. " ,
+
+      " valore " : " https://www.paypal.me/YGarg917 "
+
+    },
+
+    " PORT " : {
+
+      " description " : " Porta da utilizzare per i tuoi webhook " ,
+
+      " valore " : " 8443 "
+
+    },
+
+    " DEL_CMDS " : {
+
+      " description " : " Se eliminare comandi da utenti che non dispongono dei diritti per utilizzare quel comando " ,
+
+      " value " : " True "
+
+    },
+
+    " STRICT_GBAN " : {
+
+      " description " : " Applica i gban ai nuovi gruppi così come ai vecchi gruppi. Quando un utente gbann parla, verrà bannato. " ,
+
+      " value " : " True "
+
+    },
+
+    " ALLOW_EXCL " : {
+
+      " description " : " Se consentire l'uso di punti esclamativi! per i comandi oltre a /. " ,
+
+      " value " : " True "
+
+    },
+
+    " BAN_STICKER " : {
+
+      " description " : " Quale adesivo utilizzare quando si bandiscono le persone. Utilizza https://telegram.dog/ShowJsonBot per ottenere il file_id " ,
+
+      " valore " : " CAADBQADVQADSRstDCPAJSulhCSYAg "
+
+    },
+
+    " API_OPENWEATHER " : {
+
+      " description " : "La tua chiave API Open Weather per l'esecuzione del modulo meteo " ,
+
+      " valore " : " "
+
+    }
+
+  },
+
+  "componenti aggiuntivi " : [
+
+    {
+
+      " plan " : " heroku-postgresql " ,
+
+      " opzioni " : {
+
+        " versione " : " 9.5 "
+
+      }
+
+    }
+
+  ]
+
+}
