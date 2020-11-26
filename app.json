@@ -1,0 +1,185 @@
+{
+
+  " name " : " Marie " ,
+
+  " description " : " Il gestore di gruppi più intelligente di Telegram. Bot per la gestione dei gruppi di Telegram modulare! " ,
+
+  " parole chiave " : [
+
+    " telegramma " ,
+
+    " migliore " ,
+
+    " gruppo " ,
+
+    " manager " ,
+
+    " 3 "
+
+  ],
+
+  " repository " : " https://github.com/lucaubot4/a" ,
+
+  " env " : {
+
+    " ENV " : {
+
+      " description " : "L' impostazione di QUALSIASI COSA abiliterà le variabili env. Tuttavia, è necessario comprendere il codice per sapere cosa impostare qui! " ,
+
+      " valore " : " QUALSIASI COSA "
+
+    },
+
+    " TOKEN " : {
+
+      " description " : " Il tuo token bot, come stringa. " ,
+
+      " valore " : " "
+
+    },
+
+    " OWNER_ID " : {
+
+      " description " : " Un numero intero composto dal tuo ID proprietario " ,
+
+      " valore " : "1399063198"
+
+    },
+
+    " OWNER_USERNAME " : {
+
+      " description " : " Il tuo nome utente " ,
+
+      " value " : "Savagekove"
+
+    },
+
+    " WEBHOOK " : {
+
+      " description " : "L' impostazione di ANYTHING abiliterà i webhook quando sono in modalità env messages " ,
+
+      " valore " : " QUALSIASI COSA "
+
+    },
+
+    " URL " : {
+
+      " description " : " L'URL dell'app Heroku simile a https: // <appname> .herokuapp.com / " ,
+
+      " valore " : " "
+
+    },
+
+    " MESSAGE_DUMP " : {
+
+      " descrizione " : " facoltativo: una chat in cui vengono memorizzati i messaggi salvati con risposta, per impedire alle persone di eliminare i vecchi " ,
+
+      " valore " : " " ,
+
+      " richiesto " : falso
+
+    },
+
+    " SUDO_USERS " : {
+
+      " description " : " Un elenco separato da spazi di user_id che dovrebbero essere considerati utenti sudo " ,
+
+      " valore " : " 254318997 18673980 83489514 "
+
+    },
+
+    " SUPPORT_USERS " : {
+
+      " description " : " Un elenco separato da spazi di user_id che dovrebbero essere considerati utenti di supporto (può gban / ungban, nient'altro) " ,
+
+      " valore " : " 254318997 18673980 83489514 "
+
+    },
+
+    " WHITELIST_USERS " : {
+
+      " description " : " Un elenco separato da spazi di user_id che dovrebbero essere considerati nella whitelist - non possono essere banditi. " ,
+
+      " valore " : " 254318997 18673980 83489514 "
+
+    },
+
+    " DONATION_LINK " : {
+
+      " description " : " Facoltativo: link dove desideri ricevere donazioni. " ,
+
+      " value " : " https://www.paypal.me/PaulSonOfLars "
+
+    },
+
+    " PORT " : {
+
+      " description " : " Porta da utilizzare per i tuoi webhook " ,
+
+      " valore " : " 8443 "
+
+    },
+
+    " DEL_CMDS " : {
+
+      " description " : " Se eliminare comandi da utenti che non dispongono dei diritti per utilizzare quel comando " ,
+
+      " value " : " True "
+
+    },
+
+    " STRICT_GBAN " : {
+
+      " description " : " Applica i gban ai nuovi gruppi così come ai vecchi gruppi. Quando un utente gbannato parla, verrà bannato. " ,
+
+      " value " : " True "
+
+    },
+
+    " ALLOW_EXCL " : {
+
+      " description " : " Se consentire l'uso di punti esclamativi! per i comandi oltre a /. " ,
+
+      " value " : " True "
+
+    },
+
+    " BAN_STICKER " : {
+
+      " description " : " Quale adesivo utilizzare quando si bandiscono le persone. Utilizza https://telegram.dog/ShowJsonBot per ottenere il file_id " ,
+
+      " valore " : " CAADBQADfQADv7rGI0wxx1ORU7UzAg " ,
+
+      " richiesto " : falso
+
+    },
+
+    " BMERNU_SCUT_SRELFTI " : {
+
+      " descrizione " : " imposta questo valore come 0 " ,
+
+      " valore " : " 1 " ,
+
+      " richiesto " : falso
+
+    }
+
+  },
+
+  "componenti aggiuntivi " : [
+
+    {
+
+      " plan " : " heroku-postgresql " ,
+
+      " opzioni " : {
+
+        " versione " : " 12 "
+
+      }
+
+    }
+
+  ]
+
+}
