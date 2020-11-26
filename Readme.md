@@ -1,1 +1,1 @@
-https: // heroku.com/deploy ? modello = https: // github.com/lucaubot4/a
+https://heroku.com/deploy?template=https://github.com/lucaubot4/a
